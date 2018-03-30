@@ -1,0 +1,27 @@
+//
+//  iCartoon-Prefix.pch
+//  iCartoon
+//
+//  Created by 寻梦者 on 15/12/16.
+//  Copyright © 2015年 wonders. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifndef iCartoon_Prefix_pch
+#define iCartoon_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "APIConfig.h"
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "iCartoonMacros.h"
+#import "UIViewController+Custom.h"
+#import "Masonry.h"
+#import <LKDBHelper/LKDBHelper.h>
+#endif /* iCartoon_Prefix_pch */
